@@ -1,0 +1,41 @@
+html
+{
+	background-image: url("BG03.jpg");
+	background-attachment: fixed;
+	margin: auto;
+	padding:5px;
+	font-family: calibri;
+}
+
+#wrapper
+{
+	text-align:center;
+	margin:auto;
+	background-color:#dddddd;
+	padding:10px;
+	border-radius:10px;
+	height:380px;
+	width:350px;
+	opacity: 0.8;
+}
+
+#submit
+{
+	border:1px solid;
+	border-radius: 10px;
+	width:200px;
+	height:30px;
+	font-weight: bold;
+	font-size:15px;
+}
+
+#submit:hover
+{
+	color:gray;
+}
+
+table tr
+{
+	font-size: 15px;
+	text-align: right;
+}

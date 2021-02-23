@@ -1,0 +1,129 @@
+html
+{
+	background-image: url("BG03.jpg");
+	background-attachment: fixed;
+}
+
+#top
+{
+	width:66%;
+	border:2px solid;
+	background-color: gray;
+	border-color: gray;
+	padding:2px;
+	margin:1px;
+	float: center;
+	margin: 0 auto;
+	overflow: auto;
+	border-radius: 10px;
+	font-family: calibri;
+}
+
+#navi ul
+{
+	list-style:none;
+}
+
+#navi a:link
+{
+	text-decoration:none;
+	display;block;
+	color:white;
+	font-size:1.00em;
+	float: left;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+#navi a:visited
+{
+	color:white;
+}
+
+#navi li
+{
+	display:inline;
+}
+
+#bottom
+{
+	width:66%;
+	height:40px;
+	border:2px solid;
+	border-color: gray;
+	background-color:gray;
+	padding:2px;
+	margin:1px;
+	float: center;
+	margin: 0 auto;
+	overflow: auto;
+	border-radius: 10px;
+}
+
+div.img
+{
+    margin: 65px;
+    padding: 5px;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img
+{
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+	
+}
+
+div.img a:hover img
+{
+    border: 1px solid black;
+}
+
+div.desc
+{
+	text-align: center;
+	font-weight: normal;
+	width: 120px;
+	margin: 5px;
+}
+
+#page-wrapper
+{
+	width: 63.7%;
+	border-width: 1px;
+	border-color: #E0E0E0;
+	border-radius: 10px;
+	border-style: solid;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	float: center;
+	margin: 0 auto;
+	overflow: auto;
+	background-color: #E0E0E0;
+	font-family: calibri;
+	height:100%;
+}
+
+#bottom
+{
+	width:66%;
+	height:30px;
+	border:2px solid;
+	border-color: gray;
+	background-color:gray;
+	padding:2px;
+	margin:1px;
+	float: center;
+	margin: 0 auto;
+	overflow: auto;
+	border-radius: 10px;
+	text-align:center;
+	padding-top:10px;
+}
